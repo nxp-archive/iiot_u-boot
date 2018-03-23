@@ -13,6 +13,7 @@
 #include <dm.h>
 #include <mapmem.h>
 #include <asm/gpio.h>
+#include <asm/io.h>
 
 struct ccsr_gpio {
 	u32	gpdir;
@@ -21,6 +22,12 @@ struct ccsr_gpio {
 	u32	gpier;
 	u32	gpimr;
 	u32	gpicr;
+};
+
+struct mpc8xxx_gpio_plat {
+	ulong addr;
+	unsigned long size;
+	uint ngpios;
 };
 
 struct mpc8xxx_gpio_data {
