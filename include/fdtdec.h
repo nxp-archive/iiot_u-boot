@@ -995,4 +995,5 @@ int fdtdec_setup(void);
  */
 void *board_fdt_blob_setup(void);
 
+int fdt_baremetal_setup(void);
 #endif
