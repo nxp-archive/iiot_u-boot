@@ -1,5 +1,6 @@
 /*
- * Copyright 2015,2018-2019 NXP 
+ * Copyright 2018-2019 NXP
+ * Copyright 2015 NXP
  *
  * SPDX-License-Identifier:	GPL-2.0+
  */
