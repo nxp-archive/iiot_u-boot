@@ -1,6 +1,6 @@
 /*
- * Copyright 2017 NXP
- * Copyright 2014-2015 Freescale Semiconductor, Inc.
+ * Copyright 2017-2019 NXP
+ * Copyright 2014-2015 NXP
  * Layerscape PCIe driver
  *
  * SPDX-License-Identifier:	GPL-2.0+
@@ -560,7 +560,7 @@ static const struct udevice_id ls_pcie_ids[] = {
 };
 
 U_BOOT_DRIVER(pci_layerscape) = {
-	.name = "pci_layerscape",
+	.name = PCI_LS_DRV_NAME,
 	.id = UCLASS_PCI,
 	.of_match = ls_pcie_ids,
 	.ops = &ls_pcie_ops,
