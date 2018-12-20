@@ -1,6 +1,6 @@
 /*
- * Copyright 2017 NXP
- * Copyright 2014-2015 Freescale Semiconductor, Inc.
+ * Copyright 2017-2019 NXP
+ * Copyright 2014-2015 NXP
  * Layerscape PCIe driver
  *
  * SPDX-License-Identifier:	GPL-2.0+
@@ -128,6 +128,8 @@
 /* LS1021a PEX1/2 Misc Ports Status Register */
 #define LS1021_PEXMSCPORTSR(pex_idx)	(0x94 + (pex_idx) * 4)
 #define LS1021_LTSSM_STATE_SHIFT	20
+
+#define PCI_LS_DRV_NAME	"pci_layerscape"
 
 struct ls_pcie {
 	int idx;
