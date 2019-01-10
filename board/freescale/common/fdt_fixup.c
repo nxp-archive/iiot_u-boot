@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 NXP
+ * Copyright 2018-2019 NXP
  *
  * SPDX-License-Identifier:     GPL-2.0+
  */
@@ -8,7 +8,7 @@
 #include <dm.h>
 #include <errno.h>
 #include <serial.h>
-#include <libfdt.h>
+#include <linux/libfdt.h>
 #include <fdt_support.h>
 #include <fdtdec.h>
 #include <asm/sections.h>

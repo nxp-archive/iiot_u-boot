@@ -134,6 +134,7 @@
 #endif
 #ifdef CONFIG_PCI
 #define CONFIG_PCI_SCAN_SHOW
+#define CONFIG_CMD_PCI
 #endif
 
 /* SATA */
